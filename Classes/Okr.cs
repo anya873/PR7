@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace PR7_Шаповалова.Classes
 {
-    public class Okr:Geo_fig
+    public class Okr : Geo_fig
     {
-        public int radius {  get; set; }
+        public int diametr { get; set; }
+        public Okr(int centerX, int centerY, int diametr):base(centerX,centerY)
+        {
+            this.diametr = diametr;
+        }
+            
     }
 }
