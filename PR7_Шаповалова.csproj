@@ -64,6 +64,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\Geo_fig.cs" />
+    <Compile Include="Classes\Okr.cs" />
     <Compile Include="Classes\Treug.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
