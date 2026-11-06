@@ -17,10 +17,6 @@ namespace PR7_Шаповалова.Classes
             this.centerX = centerX;
             this.centerY = centerY;
         }
-        public virtual void Ris(Figure g)
-        {
-
-        }
 
     }
 }
