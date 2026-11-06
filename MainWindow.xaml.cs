@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PR7_Шаповалова.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace PR7_Шаповалова
         public MainWindow()
         {
             InitializeComponent();
+            Okr circle = new Okr(150, 200, 100);
+            Treug triangle = new Treug(400, 200, 120, 120, 120);
+
+            circle.Ris(MyCanvas);
+            triangle.Ris(MyCanvas);
         }
     }
 }
